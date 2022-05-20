@@ -12,6 +12,7 @@ Hunter
 
 '''
 
+
 num = int(input("Times to print: "))
 numbertoprint = 1
 
