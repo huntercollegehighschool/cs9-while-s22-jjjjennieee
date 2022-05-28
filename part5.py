@@ -18,3 +18,17 @@ Enter a number or enter 0 to stop: 0
 Number of evens: 3
 
 '''
+
+num = int(input("Enter a number or enter 0 to stop: "))
+evens_tracker = 0
+
+while num != 0:
+  if num != 0 and num % 2 == 0:
+    evens_tracker = evens_tracker + 1
+    num = int(input("Enter a number or enter 0 to stop: "))
+  elif num == 0:
+    break
+  else:
+    num = int(input("Enter a number or enter 0 to stop: "))
+
+print("Number of evens:", evens_tracker)
